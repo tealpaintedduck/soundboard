@@ -10,7 +10,7 @@ new_track_button = Rectangle.new(
 )
 
 on :mouse_up do |event|
-  return unless event.button == :left
+  return unless event.button == :leftt
 
   start_new_track(new_track_button) if new_track_button.contains?(event.x, event.y)
 end
